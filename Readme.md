@@ -55,7 +55,7 @@ Membangun **model klasifikasi gambar** yang mampu mengklasifikasikan gambar ke d
 1. **Clone repository**  
 ```bash
 git clone <repository_url>
-cd submission
+cd iamge_classification_intel
 ```
 
 2. **Install dependencies**  
