@@ -41,7 +41,7 @@ Dataset dibagi menjadi:
 
 - **Train (seg_train)** : ~14.000 gambar (training)
 - **Validation (seg_val)** : ~3.000 gambar (testing/validation)
-- **Prediction (seg_test)** : ~7.000 gambar (inference/prediction)
+- **Prediction (seg_test)** : ~3.000 gambar (inference/prediction)
 
 📊 **Sumber dataset**: [Intel Image Classification Challenge — Analytics Vidhya](https://datahack.analyticsvidhya.com)  
 📸 **Kredit foto**: Jan Böttinger di Unsplash
