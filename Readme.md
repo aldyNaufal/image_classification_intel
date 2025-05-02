@@ -79,11 +79,3 @@ Model yang dilatih dikonversi ke beberapa format agar dapat digunakan di berbaga
 ## ✨ Inspiration
 
 Mengembangkan **neural network** yang andal dalam mengenali dan mengklasifikasikan pemandangan alam — membuka peluang untuk aplikasi edukasi, pariwisata, dan konservasi lingkungan.
-
-## 🙏 Acknowledgements
-
-Terima kasih kepada:
-
-- [Analytics Vidhya](https://datahack.analyticsvidhya.com) atas tantangannya
-- **Intel** atas datasetnya
-- **Jan Böttinger** (Unsplash) untuk inspirasi visual
