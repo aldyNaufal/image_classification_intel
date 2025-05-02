@@ -1,0 +1,6 @@
+tensorflow
+tensorflowjs
+matplotlib
+numpy
+pillow
+matplotlib
