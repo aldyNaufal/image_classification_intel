@@ -7,9 +7,10 @@ Klasifikasi gambar pemandangan alam (natural scenes) menggunakan Deep Learning.
 
 ```
 ├── data
-│   ├── seg_train      # Data latih (~14k images)
-│   ├── seg_val        # Data validasi (~3k images)
-│   └── seg_test       # Data prediksi (~3k images)
+│   ├── data       # Sumber data awal (~20k images)
+│   ├── train      # Data latih (~14k images)
+│   ├── val        # Data validasi (~3k images)
+│   └── test       # Data prediksi (~3k images)
 ├── tfjs_model         # Model untuk deployment di browser (TensorFlow.js)
 │   ├── group1-shard1of1.bin
 │   └── model.json
