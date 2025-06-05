@@ -15,17 +15,19 @@ Referensi:
 
 ---
 
-## 🧠 Business Understanding
+## 🧠 Business Understanding (Revisi)
 
 ### Problem Statement
 
-Bagaimana cara mengklasifikasikan gambar ke dalam beberapa kelas yang telah ditentukan secara otomatis dan efisien?
+Bagaimana cara mengklasifikasikan gambar ke dalam enam kelas lingkungan yang berbeda secara otomatis dan efisien?
 
-### Goals
+### Objectives / Goals
 
-* Membangun model klasifikasi gambar multi-kelas berbasis deep learning dengan akurasi tinggi.
-* Meningkatkan akurasi model dengan teknik augmentasi data dan transfer learning.
-* Mengonversi model ke format TFLite dan TensorFlow\.js untuk keperluan deployment.
+1. Mengembangkan model klasifikasi gambar berbasis deep learning yang mampu mengenali 6 jenis lingkungan visual:
+
+   * `buildings`, `forest`, `glacier`, `mountain`, `sea`, dan `street`.
+2. Meningkatkan akurasi klasifikasi dengan memanfaatkan transfer learning dan augmentasi data.
+3. Menghasilkan model yang dapat di-deploy ke platform web dan mobile (dalam format `.tflite` dan `.tfjs`) untuk penggunaan praktis.
 
 ### Solution Approach
 
@@ -129,12 +131,15 @@ Dataset terdiri dari tiga subset:
 
 ---
 
-## ✅ Evaluation
 
-### Metrik yang Digunakan:
 
-* **Accuracy**: Digunakan karena klasifikasi multi-kelas dengan label seimbang.
-* **Visualisasi Prediksi**: 10 gambar pertama ditampilkan dengan label asli dan prediksi (warna hijau = benar, merah = salah).
+
+## ✅ Evaluation (Revisi Lengkap)
+
+### Metrik Evaluasi
+
+* **Accuracy** digunakan karena klasifikasi dilakukan terhadap 6 kelas yang memiliki distribusi relatif seimbang.
+* **Confusion Matrix** dan visualisasi prediksi digunakan untuk mengevaluasi kelas mana yang paling sering salah klasifikasi.
 
 ### Rumus Accuracy:
 
@@ -142,10 +147,20 @@ $$
 Accuracy = \frac{Jumlah\ prediksi\ benar}{Jumlah\ total\ data}
 $$
 
-### Hasil Evaluasi:
+### Hasil Evaluasi
 
-* Akurasi pada test set menunjukkan performa model cukup baik.
-* Beberapa prediksi salah terjadi pada kelas yang memiliki kemiripan visual.
+* Akurasi model pada data uji: **92.63%**
+* Evaluasi dilakukan pada 6 kelas:
+  `['buildings', 'forest', 'glacier', 'mountain', 'sea', 'street']`
+* Hasil evaluasi akhir:
+
+
+### Menjawab Problem Statement
+
+Dengan akurasi sebesar **92.63%**, model terbukti mampu melakukan klasifikasi gambar ke dalam 6 kelas lingkungan secara **otomatis dan efisien**, sesuai dengan problem statement.
+Penggunaan MobileNetV2 sebagai base model transfer learning menghasilkan performa yang kuat, bahkan dengan jumlah epoch yang terbatas dan data augmentasi sederhana.
+
+Model ini **layak digunakan dalam aplikasi praktis**, baik untuk sistem klasifikasi lingkungan berbasis visual maupun sebagai bagian dari pipeline sistem informasi geografis, deteksi citra satelit, atau klasifikasi konten visual dalam platform digital.
 
 ---
 
