@@ -196,3 +196,7 @@ Label disimpan dalam file `label.txt` untuk referensi klasifikasi di aplikasi cl
 ├── README.md          # Deskripsi project (file ini)
 └── requirements.txt   # Daftar dependensi Python
 ```
+
+## Flow Model 
+
+![Prediksi Sea](https://drive.google.com/uc?id=1HqZ0Usy_Rq_UIsD6YiwjLmYNpIkIa6jh)
