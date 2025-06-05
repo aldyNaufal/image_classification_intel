@@ -198,5 +198,4 @@ Label disimpan dalam file `label.txt` untuk referensi klasifikasi di aplikasi cl
 ```
 
 ## Flow Model 
-
-![Prediksi Sea](https://drive.google.com/uc?id=1HqZ0Usy_Rq_UIsD6YiwjLmYNpIkIa6jh)
+https://drive.google.com/file/d/1HqZ0Usy_Rq_UIsD6YiwjLmYNpIkIa6jh/view?usp=sharing
