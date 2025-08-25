@@ -2,8 +2,7 @@
 # Natural Scene Image Classification 🌍🖼️
 
 
-## 📌 Project Overview (Ulasan Proyek)
-
+## 📌 Project Overview 
 Dalam era digital saat ini, kebutuhan untuk mengidentifikasi dan mengklasifikasikan gambar secara otomatis menjadi semakin penting, terutama dalam bidang seperti keamanan, pertanian, kesehatan, dan e-commerce. Proyek ini bertujuan untuk mengembangkan model klasifikasi gambar berbasis deep learning yang mampu mengenali beberapa kelas objek dengan akurasi tinggi.
 
 Dengan memanfaatkan pendekatan transfer learning menggunakan arsitektur MobileNetV2, model dapat belajar dari fitur-fitur umum dalam gambar tanpa harus dilatih dari nol, yang sangat efisien dalam hal waktu dan sumber daya.
@@ -15,7 +14,7 @@ Referensi:
 
 ---
 
-## 🧠 Business Understanding (Revisi)
+## 🧠 Business Understanding
 
 ### Problem Statement
 
